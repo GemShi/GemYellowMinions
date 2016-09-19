@@ -15,6 +15,7 @@
 		DF1A9DD41D66B70A00143CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1A9DD21D66B70A00143CB6 /* LaunchScreen.storyboard */; };
 		DF1A9DDF1D66B70A00143CB6 /* GemYellowMinionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A9DDE1D66B70A00143CB6 /* GemYellowMinionsTests.m */; };
 		DF1A9DEA1D66B70A00143CB6 /* GemYellowMinionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A9DE91D66B70A00143CB6 /* GemYellowMinionsUITests.m */; };
+		DF1A9DF91D66B9D100143CB6 /* DrawYellowMinions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1A9DF81D66B9D100143CB6 /* DrawYellowMinions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DF1A9DE51D66B70A00143CB6 /* GemYellowMinionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemYellowMinionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1A9DE91D66B70A00143CB6 /* GemYellowMinionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemYellowMinionsUITests.m; sourceTree = "<group>"; };
 		DF1A9DEB1D66B70A00143CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1A9DF71D66B9D100143CB6 /* DrawYellowMinions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawYellowMinions.h; sourceTree = "<group>"; };
+		DF1A9DF81D66B9D100143CB6 /* DrawYellowMinions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawYellowMinions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DF1A9DC81D66B70A00143CB6 /* AppDelegate.m */,
 				DF1A9DCA1D66B70A00143CB6 /* ViewController.h */,
 				DF1A9DCB1D66B70A00143CB6 /* ViewController.m */,
+				DF1A9DF71D66B9D100143CB6 /* DrawYellowMinions.h */,
+				DF1A9DF81D66B9D100143CB6 /* DrawYellowMinions.m */,
 				DF1A9DCD1D66B70A00143CB6 /* Main.storyboard */,
 				DF1A9DD01D66B70A00143CB6 /* Assets.xcassets */,
 				DF1A9DD21D66B70A00143CB6 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF1A9DCC1D66B70A00143CB6 /* ViewController.m in Sources */,
+				DF1A9DF91D66B9D100143CB6 /* DrawYellowMinions.m in Sources */,
 				DF1A9DC91D66B70A00143CB6 /* AppDelegate.m in Sources */,
 				DF1A9DC61D66B70A00143CB6 /* main.m in Sources */,
 			);

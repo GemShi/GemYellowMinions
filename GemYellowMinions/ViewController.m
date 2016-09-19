@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DrawYellowMinions.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DrawYellowMinions *dym = [[DrawYellowMinions alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    dym.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:dym];
+    
+    //设置渐变色
+//    [self.view.layer addSublayer:[self shadowAsInverse]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(CAGradientLayer *)shadowAsInverse
+{
+    CAGradientLayer *newShdow = [[CAGradientLayer alloc]init];
+    CGRect newShadowFrame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
+    newShdow.frame = newShadowFrame;
+    newShdow.colors = [NSArray arrayWithObjects:(id)[UIColor lightGrayColor].CGColor,(id)[UIColor whiteColor].CGColor,(id)[UIColor yellowColor].CGColor, nil];
+    return newShdow;
 }
 
 @end
